@@ -148,11 +148,6 @@ export default function App() {
         <section className="relative pt-8 md:pt-14 pb-16 px-6 overflow-hidden bg-radial from-white via-slate-50 to-slate-50" id="hero-section">
           {/* Dynamic Limited-Time Offer Countdown Timer instead of the branding */}
           <div className="w-full max-w-xl mx-auto flex flex-col items-center justify-center mb-10 text-center" id="hero-brand-top">
-            <div className="bg-gradient-to-r from-red-500 to-pink-600 text-white text-[10px] sm:text-xs font-black px-4 py-1.5 rounded-full uppercase tracking-wider shadow-sm flex items-center gap-2 mb-3 animate-pulse">
-              <span className="w-2 h-2 rounded-full bg-white animate-ping shrink-0" />
-              <span>🚨 EXCLUSIVE ONE-TIME FLASH DEAL AVAILABLE 🚨</span>
-            </div>
-            
             <p className="text-[10px] text-slate-400 font-extrabold mb-2 uppercase tracking-widest">
               LIFETIME SUCCESS LICENSES CONCLUDING IN
             </p>
