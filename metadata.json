@@ -1,0 +1,6 @@
+{
+  "name": "Canva Pro Subscription",
+  "description": "An interactive, high-fidelity landing page for Canva Pro with a seamless checkout demo for $199/year, highlighting premium collaborative and creative tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

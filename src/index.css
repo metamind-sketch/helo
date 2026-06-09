@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-canva-purple: #7d2ae8;
+  --color-canva-pink: #ff4181;
+  --color-canva-turquoise: #00c4cc;
+  --color-canva-dark: #0e0e11;
+  --color-accent-blue: #0073e6;
+}
+
+@layer utilities {
+  .canva-gradient-text {
+    background: linear-gradient(135deg, #8b3dff 0%, #ff4181 50%, #00c4cc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .canva-gradient-bg {
+    background: linear-gradient(135deg, #8b3dff 0%, #fa2472 45%, #00d2c4 100%);
+  }
+
+  .canva-gradient-hover {
+    background-size: 200% auto;
+    transition: 0.5s;
+  }
+  
+  .canva-gradient-hover:hover {
+    background-position: right center;
+  }
+  
+  .glass-card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+  }
+
+  .glass-card-dark {
+    background: rgba(14, 14, 17, 0.8);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
